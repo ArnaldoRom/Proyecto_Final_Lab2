@@ -17,24 +17,12 @@ Agenda.init(
     limiteTurno: { type: DataTypes.INTEGER },
     idProfesionalEspecializado: {
       type: DataTypes.INTEGER,
-      references: {
-        model: "profesionalEspecializado",
-        key: "idProfesionalEspecializado",
-      },
     },
     idSucursal: {
       type: DataTypes.INTEGER,
-      references: {
-        model: "sucursal",
-        key: "idSucursal",
-      },
     },
     idCalendario: {
       type: DataTypes.INTEGER,
-      references: {
-        model: "calendario",
-        key: "idCalendario",
-      },
     },
     estado: { type: DataTypes.TINYINT },
   },

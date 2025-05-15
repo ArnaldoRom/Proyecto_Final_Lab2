@@ -3,7 +3,7 @@ import { sequelize } from "../config/db";
 
 export class Calendario extends Model {}
 
-Calendario(
+Calendario.init(
   {
     idCalendario: {
       type: DataTypes.INTEGER,

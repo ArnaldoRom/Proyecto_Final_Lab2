@@ -16,8 +16,8 @@ EstadoHorario.init(
   },
   {
     sequelize,
-    modelName: "especialidad",
-    tableName: "especialidad",
+    modelName: "estadoHorario",
+    tableName: "estadoHorario",
     timestamps: false,
   }
 );
